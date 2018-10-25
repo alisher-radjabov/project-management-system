@@ -33,7 +33,7 @@
             <ol class="list-unstyled">
                 <li><a href="/companies/{{ $company->id }}/edit">Edit</a></li>
                 <br/>
-                <li><a href="/projects/create">Add Project</a></li>
+                <li><a href="/projects/create/{{ $company->id }}">Add Project</a></li>
                 <br/>
                 <li><a href="/companies">My companies</a></li>
                 <br/>
