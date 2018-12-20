@@ -54,7 +54,6 @@ class CompaniesController extends Controller
                 'user_id' => Auth::user()->id
             ]);
 
-
             if ($company) {
                 return redirect()->route('companies.show', ['company' => $company->id])
                     ->with('success', 'Company created successfully');

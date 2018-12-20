@@ -70,6 +70,7 @@ class RolesController extends Controller
     public function update(Request $request, Role $role)
     {
         //
+        $temp = $request->get('query');
     }
 
     /**
